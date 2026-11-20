@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secretos y config local
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
